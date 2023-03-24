@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+    <link rel="icon" href="./favicon.ico">
+ 
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Kanit:wght@100;200;300;600&display=swap"
+        rel="stylesheet">
+    <!-- google icon  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html {
+            font-family: 'Alkatra', cursive;
+            font-family: 'Kanit', sans-serif;
+        }
+        body{
+            padding-left: 5vh;
+            background-color: #D3DEDC;
+        }
+        .circle {
+            /* สร้างวงกลมไว้สำหรับบรรจุภาพโปรไฟล์  */
+            width: 200px;
+            height: 200px;
+            border: 3px solid #2196f3;
+            border-radius: 50%;
+            overflow: hidden;
+            /* overflow อะไรก็ตามที่เกินล้นจาก circle จะให้ปิดซ่อนไว้ ไม่แสดง*/
+
+        }
+        .circle>img {
+            /* หากนำรูปภาพไปใส่ในวงกลม */
+            width: 450px;
+            margin-left: -110px;
+            margin-top: -20px;
+            /* ปรับให้ภาพมีขนาด 450px แล้วขยับไปทางซ้ายกับขึ้นบน */
+        }
+        .material-icons-outlined {
+            color: red;
+        }
+
+        .fa-facebook {
+            color: blue;
+        }
+
+        .title-box {
+            border: 1px dashed lime;
+            background-image: url(https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* background-color: green; */
+            /* background-blend-mode: lighten; */
+        }
+
+        .title-box>* {
+            color: #f4f4f8;
+            text-shadow: 3px 3px rgb(5, 5, 5);
+
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <a href="#">Home </a>&nbsp;|
+        <a href="Education.html">Education </a>&nbsp;|
+        <a href="workExperience.html">Work Experience </a>&nbsp;|
+        <a href="contactMe.html">Contact Me</a>&nbsp;|
+        <hr>
+    </div>
+    <div>
+        <div class="title-box">
+            <h1> <span class="material-icons-outlined">
+                thumb_up
+            </span> Keeratipong Boonnapongkasem 
+            </h1>
+            <h3>  Full-Stack Developer</h3>
+        </div>
+
+        <div class="circle">
+            <!-- <img src="https://www.svgrepo.com/show/492970/male-lawyer-upper-body.svg" alt="profilePic" style="width: 100px;height:100px;"> -->
+            <img src="./images/4DB292F8-C51B-48D9-A1A0-45D38CB71D3D.JPG" alt="profilePic">
+        </div>
+        <p>Energetic web developer with certificated from Codecamp Thailand (#13). Codecamp is one of the best
+            developer's bootcamp in Thailand. end(React), back-end(Node & Express) and Database(MySQL).</p>
+        <hr>
+    </div>
+    <div>
+        <h3>Personal Info</h3>
+        <p><b><i class="fa-solid fa-location-dot"></i> Location :</b> Bkk, Thailand</p>
+        <p><b><i class="fa-solid fa-mobile-screen-button"></i> Phone :</b> (66)85-117-6133</p>
+        <p><b><i class="fa-solid fa-envelope"></i> E-mail :</b> keeratipong.b@gmail.com</p>
+        <p><b><i class="fa-brands fa-line"></i> Line ID :</b> 5031434221</p>
+        <hr>
+    </div>
+    <div>
+        <h3>Skills</h3>
+        <ul style="color: #2196f3;">
+            <li>UX/UI Design (Figma)</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>React.js</li>
+            <li>Node.JS</li>
+            <li>MySQL</li>
+        </ul>
+        <hr>
+    </div>
+    <a href="https://www.google.com/">Go to Google</a>
+
+</html>
